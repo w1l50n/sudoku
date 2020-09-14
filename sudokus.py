@@ -98,7 +98,7 @@ class GridLocation(NamedTuple):
     column: int
 
 
-def parse_input(input: str) -> Tuple[List[GridLocation], Dict[GridLocation, List[int]], Dict[GridLocation, int]]:
+def parse_input(input: str) -> Tuple[List[GridLocation], Dict[GridLocation, List[int]], Dict[GridLocation, List[int]]]:
     grid_locations = []
     possible_values_by_location = {}
     assignment = {}
